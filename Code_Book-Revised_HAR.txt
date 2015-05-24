@@ -1,0 +1,175 @@
+
+The following information indicates the progression of variable name manipulation to yield the final set of 
+variable names below:
+
+  1) The "()" characters were removed from the variable name and replaced with nothing (e.g. tBodyAcc-mean().X
+     would become tBodyAcc-mean.X).
+  2) The "-" characters were removed and replaced with a "." character (e.g. tBodyAcc-mean.X would become 
+     tBodyAcc.mean.X).
+  3) The abreviations were then converted to the full descrptive name (e.g. tBodyAcc.mean.X would become 
+     Time Domain Body Accelleration.mean.X)
+
+Note:  The number preceeding the variable name also refers to the column number that that variable can be found in.
+
+1. Subject.Number -> Numeric value between 1 and 30.  Each number represents and unique subject.
+
+2. Condition -> WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+3. Time Domain Body Accelleration.mean.X
+
+4. Time Domain Body Accelleration.mean.Y
+
+5. Time Domain Body Accelleration.mean.Z
+
+6. Gravity Acceleration.mean.X
+
+7. Gravity Acceleration.mean.Y
+
+8. Gravity Acceleration.mean.Z
+
+9. Time Domain Body Accelleration Jerk.mean.X
+
+10. Time Domain Body Accelleration Jerk.mean.Y
+
+11. Time Domain Body Accelleration Jerk.mean.Z
+
+12. Time Domain Body Angular Speed.mean.X
+
+13. Time Domain Body Angular Speed.mean.Y
+
+14. Time Domain Body Angular Speed.mean.Z
+
+15. Time Domain Body Angular Accelleration.mean.X
+
+16. Time Domain Body Angular Accelleration.mean.Y
+
+17. Time Domain Body Angular Accelleration.mean.Z
+
+18. Time Domain Body Accelleration Magnitude.mean
+
+19. Gravity Acceleration Magnitude.mean
+
+20. Time Domain Body Accelleration Jerk Magnitude.mean
+
+21. Time Domain Body Angular Speed Magnitude.mean
+
+22. Time Domain Body Angular Accelleration Jerk Magnitude.mean
+
+23. Frequency Domain Body Accelleration.mean.X
+
+24. Frequency Domain Body Accelleration.mean.Y
+
+25. Frequency Domain Body Accelleration.mean.Z
+
+26. Frequency Domain Body Accelleration.meanFreq.X
+
+27. Frequency Domain Body Accelleration.meanFreq.Y
+
+28. Frequency Domain Body Accelleration.meanFreq.Z
+
+29. Frequency Domain Body Accelleration Jerk.mean.X
+
+30. Frequency Domain Body Accelleration Jerk.mean.Y
+
+31. Frequency Domain Body Accelleration Jerk.mean.Z
+
+32. Frequency Domain Body Accelleration Jerk.meanFreq.X
+
+33. Frequency Domain Body Accelleration Jerk.meanFreq.Y
+
+34. Frequency Domain Body Accelleration Jerk.meanFreq.Z
+
+35. Frequency Domain Body Angular Speed.mean.X
+
+36. Frequency Domain Body Angular Speed.mean.Y
+
+37. Frequency Domain Body Angular Speed.mean.Z
+
+38. Frequency Domain Body Angular Speed.meanFreq.X
+
+39. Frequency Domain Body Angular Speed.meanFreq.Y
+
+40. Frequency Domain Body Angular Speed.meanFreq.Z
+
+41. Frequency Domain Body Accelleration Magnitude.mean
+
+42. Frequency Domain Body Accelleration Magnitude.meanFreq
+
+43. Frequency Domain Body Accelleration Jerk Magnitude.mean
+
+44. Frequency Domain Body Accelleration Jerk Magnitude.meanFreq
+
+45. Frequency Domain Body Angular Speed Magnitude.mean
+
+46. Frequency Domain Body Angular Speed Magnitude.meanFreq
+
+47. Frequency Domain Body Angular Accelleration Magnitude.mean
+
+48. Frequency Domain Body Angular Accelleration Magnitude.meanFreq
+
+49. Time Domain Body Accelleration.std.X
+
+50. Time Domain Body Accelleration.std.Y
+
+51. Time Domain Body Accelleration.std.Z
+
+52. Gravity Acceleration.std.X
+
+53. Gravity Acceleration.std.Y
+
+54. Gravity Acceleration.std.Z
+
+55. Time Domain Body Accelleration Jerk.std.X
+
+56. Time Domain Body Accelleration Jerk.std.Y
+
+57. Time Domain Body Accelleration Jerk.std.Z
+
+58. Time Domain Body Angular Speed.std.X
+
+59. Time Domain Body Angular Speed.std.Y
+
+60. Time Domain Body Angular Speed.std.Z
+
+61. Time Domain Body Angular Accelleration.std.X
+
+62. Time Domain Body Angular Accelleration.std.Y
+
+63. Time Domain Body Angular Accelleration.std.Z
+
+64. Time Domain Body Accelleration Magnitude.std
+
+65. Gravity Acceleration Magnitude.std
+
+66. Time Domain Body Accelleration Jerk Magnitude.std
+
+67. Time Domain Body Angular Speed Magnitude.std
+
+68. Time Domain Body Angular Accelleration Jerk Magnitude.std
+
+69. Frequency Domain Body Accelleration.std.X
+
+70. Frequency Domain Body Accelleration.std.Y
+
+71. Frequency Domain Body Accelleration.std.Z
+
+72. Frequency Domain Body Accelleration Jerk.std.X
+
+73. Frequency Domain Body Accelleration Jerk.std.Y
+
+74. Frequency Domain Body Accelleration Jerk.std.Z
+
+75. Frequency Domain Body Angular Speed.std.X
+
+76. Frequency Domain Body Angular Speed.std.Y
+
+77. Frequency Domain Body Angular Speed.std.Z
+
+78. Frequency Domain Body Accelleration Magnitude.std
+
+79. Frequency Domain Body Accelleration Jerk Magnitude.std
+
+80. Frequency Domain Body Angular Speed Magnitude.std
+
+81. Frequency Domain Body Angular Accelleration Magnitude.std
+
