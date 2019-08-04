@@ -20,7 +20,7 @@ run_analysis.R file was created to do the following:
    variable, then subject one and condition two and so on for all thirty subjects 
    and six conditions)
    
-Along with the above the originally coded condition numbers are replaced with text descriptions of what the condition was.  For instance a condition origially labeled 1 is changed to Walking.  The mean and standard deviation variables are also re-written so that a full text description is used rather than an abreviation (for example a variable containing the abreviation tBodyAcc is changed to Time Domain Body Accelleration).  Please see the code book for a complete description of all variables and the modifications that were made to their naming.
+Along with the above the originally coded condition numbers are replaced with text descriptions of what the condition was.  For instance a condition origially labeled 1 is changed to Walking.  The mean and standard deviation variables are also re-written so that a full text description is used rather than an abbreviation (for example a variable containing the abbreviation tBodyAcc is changed to Time Domain Body Accelleration).  Please see the code book for a complete description of all variables and the modifications that were made to their naming.
 
 ###Please Note:
 Before running the R script you will need to load the dplyr package as some of the code relies on functions in that package.  Additionally, all of the data files will need to be located in your current working directory (which you will have to specify).  The last thing is the final consolidated data set is formatted as a space delimited text file.  It is recommended that you read it in using the following: read.table("HAR_Summary_Dataset.txt", header = TRUE, sep = " ")
@@ -34,7 +34,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Universit‡ degli Studi di Genova.
+DITEN - Universit√† degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
